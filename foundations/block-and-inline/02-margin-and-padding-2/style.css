@@ -8,30 +8,28 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  padding: 8px 8px;
+  padding: 8px;
   margin: 32px auto;
 }
 
 .title {
   background: #e3f4ff;
-  font-size: medium;
-  padding: 12px;
+  font-size: 16px;
+  padding: 8px;
   
 }
 
 .content {
   background: #e3f4ff;
   padding: 12px;
-  border: 32px;
   margin-bottom: 10px;
 }
 
 .button-container {
+  display: block;
   background: #e3f4ff;
   text-align: center;
-  display: block;
   padding: 12px;
-  border: 20px;
   
 }
 
@@ -41,6 +39,6 @@ button {
   text-align: center;
   padding: 8px 16px 8px 16px;
   border: 32px;
-  margin: auto;
+  margin: 0 auto;
   
 }
