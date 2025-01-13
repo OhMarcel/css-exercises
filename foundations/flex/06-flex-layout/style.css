@@ -5,17 +5,73 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-}
+  display: flex;
+  flex-direction: column;
+ 
 
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  
+}
+.buttons{
+  
+}
 img {
+  
   width: 600px;
 }
+.input{
+  margin: 12px;
+}
+.header{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 8px;
+  flex-shrink: 0;
+  
+}
+ul{
+  list-style-type: none;/* this removes the dots on the list items*/
+}
+a{
+  color: darkgray;
+  text-decoration: none;/* this removes the line under the links */
+  font-size: 16px;
+}
+.left-links{
+  display: flex;
+  gap: 24px;
+  justify-content: space-evenly;
+}
+.right-links{
+  display: flex;
+  gap: 24px;
+  justify-content: space-evenly;
+  margin-right: 24px;
+}
+.footer{
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #eeeeee;
+  flex-shrink: 0;
+}
+
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
